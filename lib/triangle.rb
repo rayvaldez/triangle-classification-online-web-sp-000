@@ -11,8 +11,7 @@ class Triangle
 
   def kind
     binding.pry
-      return :equilteral
-    end
+      
   end
 
   class TriangleError < StandardError
