@@ -10,7 +10,7 @@ class Triangle
   end
 
   def kind
-    if @s1 && @s2 && @s3
+    binding.pry
       return :equilteral
     end
   end
