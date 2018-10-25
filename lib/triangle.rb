@@ -18,6 +18,8 @@ class Triangle
         return :scalene
       elsif s1 <= 0 || s2 <= 0 || s2 <= 0
         raise TriangleError
+      else
+        raise TriangleError
       end
   end
 
