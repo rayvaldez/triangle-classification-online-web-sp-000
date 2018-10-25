@@ -26,9 +26,7 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    def message
-      "The lengths entered are invalid to create a triangle."
-    end
+
   end
 
 end
