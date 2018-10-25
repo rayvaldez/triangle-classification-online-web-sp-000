@@ -16,7 +16,7 @@ class Triangle
         return :isosceles
       elsif s1 !=s2 || s1 !=s3 || s2 !=s3
         return :scalene
-      else
+      elsif s1 <= 0 || s2 <= 0 || s2 <= 0
         raise TriangleError
       end
   end
