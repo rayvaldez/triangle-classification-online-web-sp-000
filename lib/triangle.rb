@@ -10,8 +10,9 @@ class Triangle
   end
 
   def kind
-    binding.pry
-      
+      if s1 == s2 && s2 == s3
+        return :equilateral
+      end
   end
 
   class TriangleError < StandardError
